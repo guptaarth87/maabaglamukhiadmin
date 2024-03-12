@@ -63,7 +63,7 @@ const AddMenuForm = () => {
         </div>
         <div className="mb-3">
           <label htmlFor="item_price" className="form-label">Item Price</label>
-          <input type="number" className="form-control" id="item_price" value={itemPrice} onChange={(e) => setItemPrice(e.target.value)} required />
+          <input type="text" className="form-control" id="item_price" value={itemPrice} onChange={(e) => setItemPrice(e.target.value)} required />
         </div>
         <div className="mb-3">
           <label htmlFor="veg" className="form-label">Vegetarian</label>
